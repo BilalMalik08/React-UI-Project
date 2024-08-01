@@ -1,0 +1,132 @@
+.Benefits-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Benefits-heading-1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: rgba(72, 2, 2, 0.636);
+    cursor: default;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.Benefits-card {
+    height: 65vh;
+    border: none;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.Benefits-img {
+    height: 40vh;
+}
+
+.Benefits-card-body {
+    border: 2px solid rgba(72, 2, 2, 0.636);
+    margin-top: 1.5rem;
+}
+
+.Benefits-card-title {
+    margin: 1rem 0;
+    text-align: justify;
+    color: rgba(72, 2, 2, 0.636);
+    font-size: 1.25rem;
+    cursor: default;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+}
+
+.Benefits-card-text {
+    margin: 1rem 0;
+    text-align: justify;
+    color: rgba(72, 2, 2, 0.636);
+    font-size: 1rem;
+    cursor: default;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+}
+
+.slideDown {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.slideUp {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.row {
+    animation-delay: 0.3s;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .Benefits-container {
+        height: 175vh;
+        padding: 0.5rem;
+    }
+
+    .Benefits-heading-1 {
+        font-size: 1.75rem;
+    }
+
+    .Benefits-card {
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .Benefits-row {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .Benefits-img {
+        height: 30vh;
+    }
+
+    .Benefits-card-title {
+        font-size: 1.5rem;
+    }
+
+    .Benefits-card-text {
+        font-size: 1.25rem;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .Benefits-container {
+        height: 220vh;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .Benefits-heading-1 {
+        font-size: 1.5rem;
+    }
+
+    .Benefits-card {
+        height: auto;
+    }
+
+    .Benefits-card-title {
+        font-size: 1rem;
+    }
+
+    .Benefits-card-text {
+        font-size: 0.75rem;
+    }
+}

@@ -3,6 +3,7 @@ import "./home.css";
 import Hero from "../Hero/Hero";
 import About from "../About/About";
 import MasterCard from "../MasterCard/MasterCard";
+import Benefits from "../Benefits/Benefits";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Hero />
       <About />
       <MasterCard />
+      <Benefits />
     </div>
   );
 }
