@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     padding: 2.5rem;
+    /* Removed animation from here */
 }
 
 .AboutLeft-heading {
@@ -87,4 +88,21 @@
         font-size: 0.875rem;
         margin-bottom: 1.0rem;
     }
+}
+
+/* Animations */
+@keyframes slideUp {
+    from {
+        transform: translateY(15vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0vh);
+        opacity: 1;
+    }
+}
+
+.animate {
+    animation: slideUp 1.5s ease-out;
 }

@@ -12,8 +12,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-bottom: 5rem;
-    animation: slideUp 1.5s ease-out;
-
+    /* Removed animation from here */
 }
 
 .Hero-heading {
@@ -53,6 +52,10 @@
         transform: translateY(0vh);
         opacity: 1;
     }
+}
+
+.animate {
+    animation: slideUp 1.5s ease-out;
 }
 
 /* For Tablets */
