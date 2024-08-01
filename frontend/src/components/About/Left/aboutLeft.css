@@ -4,7 +4,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2.5rem;
 }
@@ -39,4 +39,52 @@
 
 .AboutLeft-sendIcon {
     margin: 0 0.5rem;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .AboutLeft-Container {
+        height: auto;
+        padding: 1.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AboutLeft-heading {
+        font-size: 3rem;
+    }
+
+    .AboutLeft-li {
+        font-size: 1.25rem;
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .AboutLeft-link a {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .AboutLeft-Container {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .AboutLeft-heading {
+        font-size: 2rem;
+    }
+
+    .AboutLeft-li {
+        font-size: 0.875rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .AboutLeft-link a {
+        font-size: 0.875rem;
+        margin-bottom: 1.0rem;
+    }
 }

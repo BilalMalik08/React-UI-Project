@@ -1,4 +1,28 @@
 .About-Container {
     height: 100vh;
     display: flex;
+
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .About-cols {
+        flex: 0 0 50%;
+        width: 100%;
+    }
+
+    .About-Container {
+        flex-direction: column;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .About-cols {
+        flex: unset;
+    }
+
+    .About-Container {
+        height: 75vh;
+    }
 }

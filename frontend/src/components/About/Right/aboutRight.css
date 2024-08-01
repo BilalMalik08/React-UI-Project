@@ -10,3 +10,28 @@
 .AboutRight-img {
     height: 100vh;
 }
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .AboutRight-Container {
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .AboutRight-img {
+        height: 65vh;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .AboutRight-Container {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .AboutRight-img {
+        height: 50vh;
+        width: 80vw;
+    }
+}

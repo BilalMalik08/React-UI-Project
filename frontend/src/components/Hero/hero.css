@@ -63,6 +63,7 @@
 
     .Hero-Sub-Container {
         height: 70vh;
+        justify-content: center;
     }
 
     .Hero-heading-1 {
@@ -88,6 +89,7 @@
 
     .Hero-Sub-Container {
         height: 75vh;
+        justify-content: center;
     }
 
     .Hero-heading-1 {
