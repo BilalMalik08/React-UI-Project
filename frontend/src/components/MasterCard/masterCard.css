@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+.MasterCard-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MasterCard-card {
+    border: none;
+}
+
+.MasterCard-img {
+    height: 50vh;
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+}
+
+.MasterCard-body {
+    border: 2px solid rgba(72, 2, 2, 0.636);
+    margin-top: 2rem;
+    transform: translateY(15vh);
+    opacity: 0;
+    transition: transform 1.5s ease-out, opacity 1.5s ease-out;
+}
+
+.MasterCard-text {
+    margin: 1.0rem;
+    padding: 1.0rem;
+    text-align: justify;
+    color: rgba(72, 2, 2, 0.636);
+    font-size: 1.25rem;
+    cursor: default;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+}
+
+.animate-card .MasterCard-img {
+    opacity: 1;
+}
+
+.animate-card .MasterCard-body {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .MasterCard-container {
+        height: 85vh;
+        padding: 1.5rem;
+        align-items: flex-end;
+    }
+
+    .MasterCard-card {
+
+        margin-top: 1.5rem;
+    }
+
+    .MasterCard-img {
+        height: 25vh;
+    }
+
+    .MasterCard-body {
+        margin-top: 1.5rem;
+        height: 25vh;
+    }
+
+    .MasterCard-text {
+        font-size: 1.0rem;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .MasterCard-container {
+        height: 125vh;
+        padding: 1.5rem;
+        align-items: flex-end;
+    }
+
+    .MasterCard-card {
+
+        margin-top: 1.5rem;
+    }
+
+    .MasterCard-img {
+        height: 35vh;
+    }
+
+    .MasterCard-body {
+        margin-top: 1.5rem;
+        height: 45vh;
+    }
+
+    .MasterCard-text {
+        font-size: 0.75rem;
+    }
+}
