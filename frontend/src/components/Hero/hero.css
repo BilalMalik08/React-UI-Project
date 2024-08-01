@@ -9,9 +9,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding-bottom: 5rem;
     animation: slideUp 1.5s ease-out;
+
 }
 
 .Hero-heading {
@@ -32,7 +34,7 @@
 
 .Hero-btn {
     background-color: white;
-    color: rgba(255, 30, 0, 0.726);
+    color: brown;
     width: 15rem;
     height: 2.5rem;
     font-size: 1.25rem;
