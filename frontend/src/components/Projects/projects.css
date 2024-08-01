@@ -1,4 +1,4 @@
-.Benefits-container {
+.Projects-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.Benefits-heading-1 {
+.Projects-heading-1 {
     font-size: 3rem;
     margin-bottom: 2rem;
     color: rgba(72, 2, 2, 0.636);
@@ -18,7 +18,7 @@
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.Benefits-card {
+.Projects-card {
     height: 65vh;
     border: none;
     transform: translateY(50px);
@@ -26,16 +26,16 @@
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.Benefits-img {
+.Projects-img {
     height: 40vh;
 }
 
-.Benefits-card-body {
+.Projects-card-body {
     border: 2px solid rgba(72, 2, 2, 0.636);
     margin-top: 1.5rem;
 }
 
-.Benefits-card-title {
+.Projects-card-title {
     margin: 1rem 0;
     text-align: justify;
     color: rgba(72, 2, 2, 0.636);
@@ -45,7 +45,7 @@
     font-weight: bold;
 }
 
-.Benefits-card-text {
+.Projects-card-text {
     margin: 1rem 0;
     text-align: justify;
     color: rgba(72, 2, 2, 0.636);
@@ -71,21 +71,21 @@
 
 /* For Tablets */
 @media (max-width: 768px) {
-    .Benefits-container {
+    .Projects-container {
         height: 175vh;
         padding: 0.5rem;
     }
 
-    .Benefits-heading-1 {
+    .Projects-heading-1 {
         font-size: 1.75rem;
     }
 
-    .Benefits-card {
+    .Projects-card {
         height: 50vh;
         width: 80vw;
     }
 
-    .Benefits-row {
+    .Projects-row {
 
         display: flex;
         flex-direction: column;
@@ -94,39 +94,39 @@
 
     }
 
-    .Benefits-img {
+    .Projects-img {
         height: 30vh;
     }
 
-    .Benefits-card-title {
+    .Projects-card-title {
         font-size: 1.5rem;
     }
 
-    .Benefits-card-text {
+    .Projects-card-text {
         font-size: 1.25rem;
     }
 }
 
 /* For Mobiles */
 @media (max-width: 480px) {
-    .Benefits-container {
+    .Projects-container {
         height: 200vh;
         padding: 0.5rem 1.5rem;
     }
 
-    .Benefits-heading-1 {
+    .Projects-heading-1 {
         font-size: 1.5rem;
     }
 
-    .Benefits-card {
+    .Projects-card {
         height: auto;
     }
 
-    .Benefits-card-title {
+    .Projects-card-title {
         font-size: 1rem;
     }
 
-    .Benefits-card-text {
+    .Projects-card-text {
         font-size: 0.75rem;
     }
 }

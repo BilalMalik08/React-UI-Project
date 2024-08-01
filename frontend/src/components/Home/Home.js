@@ -4,6 +4,7 @@ import Hero from "../Hero/Hero";
 import About from "../About/About";
 import MasterCard from "../MasterCard/MasterCard";
 import Benefits from "../Benefits/Benefits";
+import Projects from "../Projects/Projects";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <About />
       <MasterCard />
       <Benefits />
+      <Projects />
     </div>
   );
 }
