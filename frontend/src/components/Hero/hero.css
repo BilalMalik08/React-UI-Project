@@ -2,7 +2,7 @@
 
 .Hero-Container {
     height: 100vh;
-    background: url("../../images/dubai.jpg") no-repeat center center/cover;
+    background: url("../../images/dubaiBG.jpg") no-repeat center center/cover;
 }
 
 .Hero-Sub-Container {
@@ -45,12 +45,12 @@
 /* Animations */
 @keyframes slideUp {
     from {
-        transform: translateY(100vh);
+        transform: translateY(15vh);
         opacity: 0;
     }
 
     to {
-        transform: translateY(0);
+        transform: translateY(0vh);
         opacity: 1;
     }
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
 .AboutLeft-Container {
     height: 100vh;
     display: flex;
@@ -7,17 +9,17 @@
     padding: 2.5rem;
 }
 
-.About-heading {
+.AboutLeft-heading {
     color: rgba(72, 2, 2, 0.636);
     font-size: 4rem;
     cursor: default;
     font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
-.About-li {
-    margin: 1.5rem;
-    padding: 1.5rem;
-    text-align: left;
+.AboutLeft-li {
+    margin: 1.0rem;
+    padding: 1.0rem;
+    text-align: justify;
     color: rgba(72, 2, 2, 0.636);
     font-size: 1.25rem;
     cursor: default;
@@ -25,11 +27,16 @@
     font-weight: bold;
 }
 
-.About-link {
+.AboutLeft-link a {
     text-align: center;
     color: rgba(72, 2, 2, 0.636);
     font-size: 1.25rem;
     cursor: pointer;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.AboutLeft-sendIcon {
+    margin: 0 0.5rem;
 }
