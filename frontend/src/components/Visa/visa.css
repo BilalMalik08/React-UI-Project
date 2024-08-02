@@ -1,0 +1,28 @@
+.Visa-Container {
+    height: 100vh;
+    display: flex;
+    background-color: #efebe5;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .Visa-cols {
+        flex: 0 0 50%;
+        width: 100%;
+    }
+
+    .Visa-Container {
+        flex-direction: column;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .Visa-cols {
+        flex: unset;
+    }
+
+    .Visa-Container {
+        height: 75vh;
+    }
+}

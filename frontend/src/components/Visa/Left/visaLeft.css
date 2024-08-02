@@ -1,0 +1,53 @@
+.VisaLeft-Container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.VisaLeft-img {
+    height: 50vh;
+}
+
+/* Animations */
+@keyframes slideInRight {
+    from {
+        transform: translateX(-15vw);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0vw);
+        opacity: 1;
+    }
+}
+
+.animate-right {
+    animation: slideInRight 1.5s ease-out;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .VisaLeft-Container {
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .VisaLeft-img {
+        height: 40vh;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .VisaLeft-Container {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .VisaLeft-img {
+        height: 30vh;
+        width: 65vw;
+    }
+}
