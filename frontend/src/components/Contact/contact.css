@@ -1,0 +1,110 @@
+.Contact-Container {
+    height: 100vh;
+    display: flex;
+    background-color: #efebe5;
+}
+
+.Contact-Sub-Container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-heading {
+    color: rgba(72, 2, 2, 0.636);
+    cursor: default;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    text-align: left;
+}
+
+.Contact-heading-1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.Contact-heading-6 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Contact-card {
+    background: transparent;
+    border: 1px solid rgba(72, 2, 2, 0.636);
+}
+
+.Contact-card-title {
+    color: rgba(72, 2, 2, 0.636);
+    cursor: default;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.Contact-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.Contact-icons .fa-icon {
+    font-size: 1.25rem;
+    color: rgba(72, 2, 2, 0.636);
+    cursor: pointer;
+    border: 1px solid rgba(72, 2, 2, 0.636);
+    border-radius: 50%;
+    padding: 1.0rem;
+    margin: 1.0rem;
+    transition: color 0.3s;
+}
+
+.Contact-icons .fa-icon:hover {
+    color: rgba(72, 2, 2, 0.8);
+}
+
+.Contact-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    color: rgba(72, 2, 2, 0.636);
+}
+
+.Contact-info .fa-icon {
+    margin: 0.5rem 1.5rem;
+}
+
+.Contact-card-li {
+    margin: 0.25rem;
+    padding: 0.25rem;
+    text-align: justify;
+    color: rgba(72, 2, 2, 0.636);
+    font-size: 1.25rem;
+    cursor: default;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+
+
+    .Contact-Container {
+        flex-direction: column;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+
+
+    .Contact-Container {
+        height: 75vh;
+    }
+}

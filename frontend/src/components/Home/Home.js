@@ -6,6 +6,7 @@ import MasterCard from "../MasterCard/MasterCard";
 import Benefits from "../Benefits/Benefits";
 import Projects from "../Projects/Projects";
 import Visa from "../Visa/Visa";
+import Contact from "../Contact/Contact";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Benefits />
       <Projects />
       <Visa />
+      <Contact />
     </div>
   );
 }
